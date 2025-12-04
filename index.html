@@ -50,10 +50,10 @@
 
 <script>
     const backgrounds = [
-        "bg1.jpg",
-        "bg2.jpg",
-        "bg3.jpg",
-        "bg4.jpg"
+        "bg1.png",
+        "bg2.png",
+        "bg3.png",
+        "bg4.png"
     ];
 
     let index = 0;
@@ -76,6 +76,9 @@
     document.addEventListener("click", () => {
         document.getElementById("music").play();
     });
+
+    const music = document.getElementById("music");
+    music.volume = 0.25;
 </script>
 
 </body>
